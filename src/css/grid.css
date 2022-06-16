@@ -1,0 +1,212 @@
+#grid_colunm {
+    background-color: var(--background--color);
+    height: 100vh;
+    width: 100%;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* cards */
+.card {
+   padding: 10px 35px;
+   margin-top: 90px;
+}
+
+
+/* colunm_1 */
+.colunm_1 {
+    background-color: var(--first-card--colunm-color);
+    position: relative;
+    left: 0;
+    top: 0;
+    border-radius: 8px 0px 0px 8px;
+}
+
+/* colunm_logo */
+.colunm_logo {
+    position: relative;
+    top: 20px;
+    left: 0;
+}
+
+
+
+.colunm_1 > h1,
+.colunm_2 > h1,
+.colunm_3 > h1{
+    padding-top: 53px;
+    font-family: 'Big Shoulders Display';
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--card-inner-text-color);
+    font-style: normal;
+}
+
+.colunm_1 > p {
+    padding-top: 40px;
+    font-family: 'Lexend Deca';
+    font-size: 22px;
+    font-weight: 100;
+    font-style: normal;
+    width: 100%;
+    color: var(--card-inner-text-color);
+    line-height: 1.30;
+}
+
+
+
+/* btn */
+.btn_read button {
+    position: relative;
+    top: 20px;
+    margin: 45px 0;
+    display: inline-block;
+    width: 58%;
+    height: 40px;
+    box-shadow: 1px 0px 3px rgba(227, 227, 227, .4);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: var(--first-card-button-text-color);
+    transition: all 0.5s ease-in;
+    transition-property: background;
+    cursor: pointer;
+}
+
+.btn_read button:hover{
+    background: #435e63;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+/* .btn_1,
+.btn_2,
+.btn_3 {
+    transition: all 0.5s ease-in;
+    transition-property: background;
+    cursor: pointer;
+} */
+
+/* .btn_1:hover,
+.btn_2:hover,
+.btn_3:hover {
+    background: #435e63;
+    color: #fff;
+    border: 2px solid #fff;
+} */
+
+
+
+
+
+/* colunm_2 */
+.colunm_2 {
+    background: var(--second-card--colunm-color);
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+
+.colunm_2 > p {
+    padding-top: 40px;
+    font-family: 'Lexend Deca';
+    font-size: 22px;
+    font-weight: 100;
+    font-style: normal;
+    width: 100%;
+    color: var(--card-inner-text-color);
+    line-height: 1.30;
+}
+
+
+/* btn2 */
+.btn2 button {
+    background: var(--button-background-color);
+    color: var(--second-card-button-text-color);
+}
+
+
+
+/* colunm_3 */
+.colunm_3 {
+    background: var(--third-card--colunm-color);
+    border-radius: 0px 8px 8px 0px;
+}
+
+
+.colunm_3 > p {
+    padding-top: 40px;
+    font-family: 'Lexend Deca';
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+    width: 100%;
+    color: var(--card-inner-text-color);
+    line-height: 1.30;
+}
+
+/* btn3 */
+.btn3 button{
+    color: var(--third-card-button-text-color);
+    position: relative;
+    top: 35px;
+}
+
+@media (max-width: 975px) {
+    .colunm_1 > p,
+    .colunm_2 > p,
+    .colunm_3 > p {
+        padding-top: 30px;
+        font-size: 15px;
+        line-height: 1.30;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+    }
+
+    .card {
+        margin-top: 0px;
+    }     
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 0px;
+    }
+
+    .colunm_1,
+    .colunm_3 {
+        border-radius: 0px 0px 0px 0px;
+    }
+   
+    .colunm_1 > p,
+    .colunm_2 > p,
+    .colunm_3 > p {
+        padding-top: 30px;
+        font-size: 13px;
+        line-height: 1.20;
+    }
+
+    .btn {
+        margin-top: 37px;
+    }
+}
+
+@media screen and (max-width: 189px) {
+    .btn_1,
+    .btn_2,
+    .btn_3  {
+        width: 320px;
+    }
+}

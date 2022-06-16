@@ -1,0 +1,42 @@
+@import url('./flexBox.css');
+@import url('./grid.css');
+
+
+:root {
+    --background--color: hsl(0, 0%, 95%);
+    --first-card--colunm-color: hsl(31, 77%, 52%);
+    --second-card--colunm-color:  hsl(184, 100%, 22%);
+    --third-card--colunm-color: hsl(179, 100%, 13%);
+    --card-inner-text-color: hsla(0, 0%, 100%, 0.75);
+    --button-background-color:  hsl(0, 0%, 95%);
+    --first-card-button-text-color: hsl(31, 77%, 52%);
+    --second-card-button-text-color: hsl(184, 100%, 22%);
+    --third-card-button-text-color: hsl(179, 100%, 13%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
