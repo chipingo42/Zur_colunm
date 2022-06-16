@@ -151,12 +151,22 @@
 
 
 @media  (max-width: 768px) {
+    #colunm {
+        height: 100%;
+    }
     .colunm_content {
         display: block;
+        margin: 0 30px;
     }
 
     .colunms {
         margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .colunm_content {
+        margin: 0 15px;
     }
 }
 

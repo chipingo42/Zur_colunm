@@ -82,25 +82,6 @@ main {
     border: 2px solid #fff;
 }
 
-/* .btn_1,
-.btn_2,
-.btn_3 {
-    transition: all 0.5s ease-in;
-    transition-property: background;
-    cursor: pointer;
-} */
-
-/* .btn_1:hover,
-.btn_2:hover,
-.btn_3:hover {
-    background: #435e63;
-    color: #fff;
-    border: 2px solid #fff;
-} */
-
-
-
-
 
 /* colunm_2 */
 .colunm_2 {
@@ -167,10 +148,14 @@ main {
 }
 
 @media (max-width: 768px) {
+    #grid_colunm {
+        height: 100%;
+    }
     main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         position: relative;
+        margin: 0 30px;
     }
 
     .card {
@@ -182,7 +167,7 @@ main {
     main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-top: 0px;
+        margin: 0px 15px;
     }
 
     .colunm_1,
