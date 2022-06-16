@@ -30,6 +30,7 @@
     height: 100%;
     width: 100%;
     padding: 40px 30px;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .colunm_card1 > h1 {
@@ -127,6 +128,7 @@
     height: 100%;
     width: 100%;
     padding: 47px 30px;
+    border-radius: 0px 8px 8px 0px;
 }
 
 .colunm_card3 > h1 {
