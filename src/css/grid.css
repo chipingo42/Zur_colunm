@@ -137,6 +137,27 @@ main {
     top: 35px;
 }
 
+
+/* description btn */
+.descp_btn {
+    position: relative;
+    top: 0;
+    left: 40%;
+    background: var(--third-card--colunm-color);
+    margin-top: 70px;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    box-shadow: 1px 0px 3px rgba(227, 227, 227, .4);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: var(--button-background-color);
+    transition: all 0.5s ease-in;
+    transition-property: background;
+    cursor: pointer;
+}
+
 @media (max-width: 975px) {
     .colunm_1 > p,
     .colunm_2 > p,
@@ -161,6 +182,12 @@ main {
     .card {
         margin-top: 0px;
     }     
+
+    .descp_btn {
+        position: relative;
+        top: -30px;
+        left: 37%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -185,6 +212,11 @@ main {
 
     .btn {
         margin-top: 37px;
+    }
+
+    .descp_btn {
+        position: relative;
+        left: 28%;
     }
 }
 
