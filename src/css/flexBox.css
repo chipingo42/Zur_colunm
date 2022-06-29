@@ -174,10 +174,6 @@
 }
 
 
-.des_btn {
-    position: relative;
-    top: -60px;
-}
 
 @media  (max-width: 768px) {
     #colunm {
