@@ -182,12 +182,6 @@ main {
     .card {
         margin-top: 0px;
     }     
-
-    .descp_btn {
-        position: relative;
-        top: -30px;
-        left: 37%;
-    }
 }
 
 @media screen and (max-width: 500px) {
