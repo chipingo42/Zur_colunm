@@ -1,6 +1,7 @@
 #colunm {
     background: var(--background--color);
     height: 100vh;
+    padding: 40px 0;
     width: 100%;
 }
 
